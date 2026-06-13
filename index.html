@@ -5,27 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/assets/logoxfavicon.png" sizes="16x16">
     <title>Landing Page</title>
 </head>
 
 <body>
     <div class="header">
         <div class="logo">
-            <h3>Sample</h3>
+            <a href="/"><img src="/assets/logoxfavicon.png" alt="Logo"></a>
+
         </div>
         <div class="right-links">
             <nav>
                 <ul>
-                    <li><a href="#home">| Home |</a></li>
-                    <li><a href="#about">| About |</a></li>
-                    <li><a href="#contact">| Contact |</a></li>
+                    <li><a href="/">| Home |</a></li>
+                    <li><a href="#gallery">| Gallery |</a></li>
+                    <li><a href="#review">| Review |</a></li>
                 </ul>
             </nav>
         </div>
     </div>
     <div class="hero">
         <div class="hero-text">
-            <h2 class="welcome-text">Landing Page Presents</h2>
+            <h2 class="welcome-text"><span style="color: #f5d000; font-size: 56px;">Rockstar Games </span>Presents</h2>
             <p>America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western
                 town
                 of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the
@@ -44,28 +46,32 @@
     </div>
     <div class="content">
         <div class="information-title">
-            <h1>Image Gallery</h1>
+            <h1 id="gallery">Gallery</h1>
         </div>
         <div class="box-container">
             <div class="box">
                 <img src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/e162d27c8c142a69c2787d1af643faec.jpg?im=Resize,width=768"
                     width="200" height="100" alt="Box 1 Image">
+                    <p class="subtext">Experience the breathtaking landscapes of the American frontier, from sweeping plains to rugged mountains, all rendered in stunning detail.</p>
             </div>
             <div class="box">
                 <img src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/ef1e767fe0b8d6674ba0cad3ff856367.jpg?im=Resize,width=768"
                     width="200" height="100" alt="Box 2 Image">
+                    <p class="subtext">Join Arthur Morgan and the Van der Linde gang on their journey through the dying days of the Wild West.</p>
             </div>
             <div class="box">
                 <img src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/6f788c55c1f81b5bd71f4ec72c24477b.jpg?im=Resize,width=768"
                     width="200" height="100" alt="Box 3 Image">
+                    <p class="subtext">Experience the intense action and dynamic combat systems that make Red Dead Redemption 2 a thrilling adventure.</p>
             </div>
             <div class="box">
                 <img src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/7dc688860b2715599f048527dada1ddf.jpg?im=Resize,width=768"
                     width="200" height="100" alt="Box 4 Image">
+                    <p class="subtext">Immerse yourself in the richly detailed world of the American frontier and its diverse characters.</p>
             </div>
         </div>
     </div>
-    <div class="quote-box">
+    <div class="quote-box" id="review">
         <div class="quote-text">
             <p>"Red Dead Redemption 2 is a masterpiece of storytelling and open-world design, delivering an
                 unforgettable
@@ -78,8 +84,9 @@
             <h2>Ready to experience the epic adventure of Red Dead Redemption 2?</h2>
             <p>Don't miss out on the ultimate western adventure!</p>
         </div>
-        <div class="cta-button">    
-            <button class="cta-btn"><a href="https://store.rockstargames.com/game/buy-red-dead-redemption-2" target="_blank">Buy Now</a></button>
+        <div class="cta-button">
+            <button class="cta-btn"><a href="https://store.rockstargames.com/game/buy-red-dead-redemption-2"
+                    target="_blank">Buy Now</a></button>
         </div>
     </div>
     <div class="footer">
